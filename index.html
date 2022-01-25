@@ -4,16 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
 <body>
-    <h1 style="text-align: center; font-size: 60px;">Hola, Estoy Perdido. Mis dueños estan muy tristes y andan buscandome. ¿Podrías ayudarlos a encontrarme?</h1>
-    <img src="Media/Bebe-1.jpeg" style="display: block; margin-left: auto; margin-right: auto;">
+    <h1 id="title">Hola, Estoy volando perdido en la urbanización el Paraíso y mis dueños estan muy tristes buscandome. ¿Podrías ayudarlos a encontrarme?</h1>
+    <img id="main-image" src="Media/Profile-bebe.png">
 
 
-    <h1 style="text-align: center; font-size: 100px;">Este soy yo Cantando. ¿Me escuchas cerca?</h1>
+    <br>
 
-    <video controls style="width: 40%; height: 400px; display: block; margin-left: auto; margin-right: auto;">
+    <h1>Escucha mi llamado</h1>
+
+    <audio controls>
+        <source src="Media/Llamado-bebe.ogg" type="audio/ogg">
+        <source src="Media/Llamado-bebe.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+      
+
+    <br>
+    <br>
+    <hr>
+    <br>
+
+    <h1 class="detail-text">Asi doy los Buenos Días ☀️</h1>
+
+    <video controls >
+        <!-- Bebe Cantando 1 -->
+
+        <source src="Media/videos-webMD/Buenos-Dias-Bebe.webm" type="video/webm">
+    
+        <source src="Media/Buenos-Dias-Bebe.mp4" type="video/mp4">
+    
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+    
+    <hr>
+    <br>
+    
+
+    <h1 class="detail-text">Este soy yo Cantando. ¿Me escuchas cerca?</h1>
+
+    <video controls >
         <!-- Bebe Cantando 1 -->
 
         <source src="Media/videos-webMD/Bebe-Cantando_Trim.webm" type="video/webm">
@@ -22,8 +55,11 @@
     
         Sorry, your browser doesn't support embedded videos.
     </video>
+    
     <br>
-    <video controls style="width: 40%; height: 400px; display: block; margin-left: auto; margin-right: auto;">
+    
+    
+    <video controls >
         <!-- Bebe Cantando 2 -->
 
         <source src="Media/videos-webMD/Bebe-Cantando-2.webm"
@@ -34,10 +70,11 @@
     
         Sorry, your browser doesn't support embedded videos.
     </video>
+    <hr>
     <br>
 
-    <h1 style="text-align: center; font-size: 100px;">Mirame aquí aprendiendo a tirar besitos</h1>
-    <video controls style="width: 40%; height: 400px; display: block; margin-left: auto; margin-right: auto;">
+    <h1 class="detail-text"">Mirame aquí aprendiendo a tirar besitos</h1>
+    <video controls >
         <!-- Bebe Besito -->
 
         <source src="Media/videos-webMD/Bebe-Besito.webm"
@@ -52,33 +89,34 @@
     <!-- Picture Gallery -->
 
     <!-- Photo Grid -->
-    <br><br>
-    <h1 style="text-align: center; font-size: 80px;">Aquí unas fotos mias. Si me haz visto, por favor llama a mis dueños lo antes posible. Te darán una buena recompenza.</h1>
+    <br><hr><br>
+    <h1 class="detail-text">Mira que lindo soy. Si me haz visto, por favor llama a mis dueños lo antes posible. No sé como llegar a ellos por mi cuenta 🥺</h1>
 
-  <div class="row">
-    <div class="column">
-        
-    </div>
-    <div class="column">
-        <img src="Media/Bebe-2.jpeg" style="display: block; margin-left: auto; margin-right: auto;">
-    </div>
-    <div class="column">
-        <img src="Media/Bebe-3.jpeg" style="display: block; margin-left: auto; margin-right: auto;">
-    </div>
-    <div class="column">
-        <img src="Media/Bebe-4.jpeg" style="display: block; margin-left: auto; margin-right: auto;">
-    </div>
 
-    <div class="column">
-        <img src="Media/Bebe-5.jpeg" style="display: block; margin-left: auto; margin-right: auto;">
-    </div>
-
-    <div class="column">
-        <img src="Media/Bebe-6.jpeg" style="display: block; margin-left: auto; margin-right: auto;">
-    </div>
-  </div>
+        <img class="gallery" src="Media/Bebe-2.jpeg">
+        <hr>
+        <img class="gallery" src="Media/Bebe-3.jpeg">
+        <hr>
+        <img class="gallery" src="Media/Bebe-4.jpeg">
+        <hr>
+        <img class="gallery" src="Media/Bebe-5.jpeg">
+        <hr>
+        <img class="gallery" src="Media/Bebe-6.jpeg">
       
-</div>
+    <br><br><br><br>
+
+    <div id="contact">
+        Si me ves, me escuchas o me encuentras, por favor contacta a mis dueños a los siguientes números. <br>
+        <div id="phone-numbers">
+            <br>
+            <a href="tel:9396424284">939-645-4284</a><br>
+            <a href="tel:7872076378">787-207-6378</a><br>
+            <a href="tel:7875622660">787-562-2660</a>
+        
+
+        <br><br><br>
+        </div>        
+    </div>
 
 </body>
 </html>
